@@ -1,0 +1,11 @@
+<h1>List of celebrities</h1>
+
+<ul>
+  {{#each celebrities}}
+    <li>{{this.name}}</li>
+  {{/each}}
+</ul>
+<button class="btn btn-secondary mt-3"><a
+    class="text-white"
+    href="/celebrity/create"
+  >Create new celebrity</a></button>
